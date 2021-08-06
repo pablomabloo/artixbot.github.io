@@ -1,7 +1,8 @@
 h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    
+    color: rgba(42, 26, 180, 0.76);
+    box-shadow: rgb(18, 0, 83) 5px 5px;
 
 }
 
@@ -9,11 +10,12 @@ body{
     border: 2px solid black;
     border-radius: 12px;
     margin: 0px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 
 }
 .designer{
     text-align: center;
+    padding: 10px;
 }
 
 .big_div {
@@ -22,13 +24,16 @@ body{
     text-align: center;
      border: white 10px solid;
      width:100%;
-    background-color: white;
+    background-color: black;
     color: black;
+    padding: 20px;
+    border: black;
 }
 
 .items:hover{
     background-color: gray;
     opacity: 0.5;
+    padding: 10px;
 }
 
 a {
@@ -71,4 +76,20 @@ h2 {
 display: flex;
 justify-content: center;
 border: black solid 10px;
+}
+
+.classespasses {
+display:flex;
+justify-content: space-around;
+font-size: 20px;
+}
+
+#cards {
+border:2px solid black;
+
+}
+
+.woof {
+    background-color: white;
+
 }
